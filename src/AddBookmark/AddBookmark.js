@@ -28,7 +28,7 @@ class AddBookmark extends Component {
     const bookmark = {
       title: title.value,
       url: url.value,
-      description: description.value,
+      about: description.value,
       rating: rating.value,
     }
     this.setState({ error: null })
